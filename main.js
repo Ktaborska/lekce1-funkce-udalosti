@@ -16,10 +16,14 @@ function secti(a, b) {
 function upozorni(className, color) {
   alert("Gratulace, právě jsi spustila tuto funkci!");
   document.querySelector(className).style.backgroundColor = color;
+  }
+
+function hlaska(className, width){
   console.log('Gratulace, právě jsi spustila tuto funkci!')
   document.querySelector(className).innerHTML = 'Gratulace, právě si spustila tuto funkci!';
-  className.style.width = '400px';
-  }
+  document.querySelector(className).style.width = width + 'px';
+
+}
 
   /*
   let ctverecek = document.querySelector(className);
